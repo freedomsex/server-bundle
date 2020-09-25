@@ -1,0 +1,32 @@
+{
+    "name": "freedomsex/server-bundle",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "repositories": [
+        { "type": "git", "url": "git@github.com:freedomsex/request-condom" },
+        { "type": "git", "url": "git@github.com:freedomsex/contracts" }
+    ],
+    "require": {
+        "php": "^7.1.0",
+        "freedomsex/client-identifier": "*",
+        "symfony/orm-pack": "^2.0",
+        "freedomsex/request-condom": "*",
+        "freedomsex/contracts": "*"
+    },
+    "require-dev": { },
+    "autoload": {
+        "psr-4": {
+            "FreedomSex\\ServerBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FreedomSex\\ServerBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "5.1.*"
+        }
+    }
+}
