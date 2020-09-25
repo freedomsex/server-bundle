@@ -9,4 +9,24 @@ services:
   FreedomSex\ServerBundle\:
     resource: '../../*'
     exclude: '../../{DependencyInjection,Entity}'
-  
+
+
+  FreedomSex\ServerBundle\EntityDateUpdate:
+    tags:
+      - { name: doctrine.event_subscriber, connection: default }
+
+  # JsonEncode options
+  app.json_encoder:
+    class: Symfony\Component\Serializer\Encoder\JsonEncode
+    arguments:
+      - [ json_encode_options: JSON_UNESCAPED_UNICODE ]
+
+  serializer.encoder.json:
+    class: Symfony\Component\Serializer\Encoder\JsonEncoder
+    arguments:
+      - '@app.json_encoder'
+
+  app.cache.chain:
+    class: Symfony\Component\Cache\Adapter\ChainAdapter
+    arguments:
+      $adapters: ['@app.cache.memory', '@app.cache.items']
