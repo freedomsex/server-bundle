@@ -3,6 +3,7 @@
     "type": "symfony-bundle",
     "license": "proprietary",
     "repositories": [
+        { "type": "git", "url": "git@github.com:freedomsex/auth-bundle" },
         { "type": "git", "url": "git@github.com:freedomsex/request-condom" },
         { "type": "git", "url": "git@github.com:freedomsex/contracts" }
     ],
@@ -11,7 +12,18 @@
         "freedomsex/client-identifier": "*",
         "symfony/orm-pack": "^2.0",
         "freedomsex/request-condom": "*",
-        "freedomsex/contracts": "*"
+        "freedomsex/contracts": "*",
+        "freedomsex/base-utilites": "*",
+        "freedomsex/auth-bundle": "^0.4.8",
+        "symfony/serializer": "^5.1",
+        "symfony/twig-bundle": "^5.1",
+        "symfony/security-bundle": "^5.1",
+        "symfony/monolog-bundle": "^3.5",
+        "sensio/framework-extra-bundle": "^5.6",
+        "nelmio/cors-bundle": "^2.1",
+        "symfony/validator": "^5.1",
+        "freedomsex/health-bundle": "^1.0",
+        "freedomsex/key-value-storage": "^1.0"
     },
     "require-dev": { },
     "autoload": {
