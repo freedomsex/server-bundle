@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49741933f6eaaca444fffbbfbbf142b2",
+    "content-hash": "3f4823b1155c89b3deb04f33bd1cf314",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1715,16 +1715,16 @@
         },
         {
             "name": "freedomsex/key-value-storage",
-            "version": "1.0.3",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/freedomsex/key-value-storage.git",
-                "reference": "e3782277abf5509bc40f671036dc702734ddc52f"
+                "reference": "58382e39739d8701e968b1077f245f58aae082c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/freedomsex/key-value-storage/zipball/e3782277abf5509bc40f671036dc702734ddc52f",
-                "reference": "e3782277abf5509bc40f671036dc702734ddc52f",
+                "url": "https://api.github.com/repos/freedomsex/key-value-storage/zipball/58382e39739d8701e968b1077f245f58aae082c7",
+                "reference": "58382e39739d8701e968b1077f245f58aae082c7",
                 "shasum": ""
             },
             "require": {
@@ -1750,7 +1750,7 @@
                 }
             ],
             "description": "A simple key-value storage based on PSR-6, Caching Interface.",
-            "time": "2020-06-22T17:50:05+00:00"
+            "time": "2020-09-26T15:36:34+00:00"
         },
         {
             "name": "freedomsex/password-manager",
@@ -1790,15 +1790,15 @@
         },
         {
             "name": "freedomsex/request-condom",
-            "version": "1.1.2",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:freedomsex/request-condom",
-                "reference": "6a035b8310a1c21e4139fdc3ba5ed2ee2b22c0ae"
+                "reference": "2bbe71a07a5e403f4a2812ac14c69c83010439de"
             },
             "require": {
                 "freedomsex/client-identifier": "^1.0.0",
-                "freedomsex/key-value-storage": "1.0.3",
+                "freedomsex/key-value-storage": "^2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -1819,7 +1819,8 @@
                     "email": "support@freedomsex.net"
                 }
             ],
-            "time": "2020-06-22T18:02:08+00:00"
+            "description": "some protection",
+            "time": "2020-09-26T15:59:02+00:00"
         },
         {
             "name": "laminas/laminas-code",

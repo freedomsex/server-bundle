@@ -23,7 +23,7 @@
         "nelmio/cors-bundle": "^2.1",
         "symfony/validator": "^5.1",
         "freedomsex/health-bundle": "^1.0",
-        "freedomsex/key-value-storage": "^1.0",
+        "freedomsex/key-value-storage": "^2.0",
         "symfony/cache": "^5.1"
     },
     "require-dev": { },
