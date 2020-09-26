@@ -1607,11 +1607,11 @@
         },
         {
             "name": "freedomsex/contracts",
-            "version": "v1.2.0",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:freedomsex/contracts",
-                "reference": "40d2069d33c95fb30f4a779bcb5734e1c202e57b"
+                "reference": "3e5aeaf02e2957bfcc2bc4cb217419816d88f398"
             },
             "type": "library",
             "autoload": {
@@ -1629,7 +1629,7 @@
                 }
             ],
             "description": "Some common contracts, interfaces",
-            "time": "2020-09-25T08:13:08+00:00"
+            "time": "2020-09-26T12:06:26+00:00"
         },
         {
             "name": "freedomsex/health-bundle",

@@ -30,3 +30,6 @@ services:
     class: Symfony\Component\Cache\Adapter\ChainAdapter
     arguments:
       $adapters: ['@app.cache.memory', '@app.cache.items']
+
+  FreedomSex\Contracts\Entity\User:
+    autoconfigure: true
