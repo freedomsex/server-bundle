@@ -1,17 +1,16 @@
 {
     "name": "freedomsex/server-bundle",
     "type": "symfony-bundle",
-    "license": "proprietary",
+    "description": "Meta `server` bundle for FreedomSex project api-servers",
+    "license": "MIT",
     "repositories": [
         { "type": "git", "url": "git@github.com:freedomsex/auth-bundle" },
-        { "type": "git", "url": "git@github.com:freedomsex/request-condom" },
         { "type": "git", "url": "git@github.com:freedomsex/contracts" }
     ],
     "require": {
         "php": "^7.4.0",
         "freedomsex/client-identifier": "*",
         "symfony/orm-pack": "^2.0",
-        "freedomsex/request-condom": "*",
         "freedomsex/contracts": "*",
         "freedomsex/base-utilites": "*",
         "freedomsex/auth-bundle": "^0.4.8",

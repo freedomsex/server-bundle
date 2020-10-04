@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36b84f653f8b992a6e69972f068e1824",
+    "content-hash": "f26e088f3e422c4799cb50cd70f99fbd",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1790,40 +1790,6 @@
             ],
             "description": "simple password manager",
             "time": "2020-04-14T09:42:36+00:00"
-        },
-        {
-            "name": "freedomsex/request-condom",
-            "version": "v1.1.4",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:freedomsex/request-condom",
-                "reference": "2bbe71a07a5e403f4a2812ac14c69c83010439de"
-            },
-            "require": {
-                "freedomsex/client-identifier": "^1.0.0",
-                "freedomsex/key-value-storage": "^2.0",
-                "php": "^7.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FreedomSex\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "tebaly",
-                    "email": "support@freedomsex.net"
-                }
-            ],
-            "description": "some protection",
-            "time": "2020-09-26T15:59:02+00:00"
         },
         {
             "name": "laminas/laminas-code",
