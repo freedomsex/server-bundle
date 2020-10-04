@@ -1,6 +1,3 @@
-#parameters:
-#  signed_token_ttl: 90
-
 services:
   _defaults:
     autowire: true      # Automatically injects dependencies in your services.

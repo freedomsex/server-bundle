@@ -20,12 +20,6 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder('server');
         $rootNode = $treeBuilder->getRootNode();
 
-//        $rootNode
-//            ->children()
-//                ->integerNode('access_ttl')->defaultValue(900)->end()
-//                ->scalarNode('token_subject')->defaultValue('authorize')->end()
-//            ->end();
-
         return $treeBuilder;
     }
 }
