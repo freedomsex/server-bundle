@@ -8,7 +8,7 @@
         { "type": "git", "url": "git@github.com:freedomsex/contracts" }
     ],
     "require": {
-        "php": "^7.1.0",
+        "php": "^7.4.0",
         "freedomsex/client-identifier": "*",
         "symfony/orm-pack": "^2.0",
         "freedomsex/request-condom": "*",
@@ -26,7 +26,9 @@
         "freedomsex/key-value-storage": "^2.0",
         "symfony/cache": "^5.1"
     },
-    "require-dev": { },
+    "require-dev": {
+        "freedomsex/dev-pack": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "FreedomSex\\ServerBundle\\": "src/"
