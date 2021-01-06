@@ -54,7 +54,7 @@
     },
     "extra": {
         "symfony": {
-            "require": "5.1.*"
+            "require": "^5.2"
         }
     }
 }
