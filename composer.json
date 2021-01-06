@@ -19,18 +19,18 @@
         "symfony/cache": "^5.1",
         "symfony/console": "^5.1",
         "symfony/dotenv": "^5.1",
-        "symfony/expression-language": "5.1.*",
+        "symfony/expression-language": "^5.1",
         "symfony/flex": "^1.9",
         "symfony/framework-bundle": "^5.1",
-        "symfony/http-client": "5.1.*",
+        "symfony/http-client": "^5.1",
         "symfony/monolog-bundle": "^3.5",
         "symfony/orm-pack": "^2.0",
         "symfony/security-bundle": "^5.1",
         "symfony/serializer": "^5.1",
         "symfony/twig-bundle": "^5.1",
-        "symfony/uid": "5.1.*",
+        "symfony/uid": "^5.1",
         "symfony/validator": "^5.1",
-        "symfony/yaml": "5.1.*"
+        "symfony/yaml": "^5.1"
     },
     "config": {
         "optimize-autoloader": true,
