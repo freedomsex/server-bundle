@@ -8,6 +8,8 @@
     ],
     "require": {
         "php": "^7.4.0",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
         "freedomsex/auth-bundle": "^0.4.8",
         "freedomsex/base-utilites": "*",
         "freedomsex/client-identifier": "*",
