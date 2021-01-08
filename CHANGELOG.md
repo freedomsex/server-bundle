@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.2.2](https://github.com/freedomsex/server-bundle/compare/v5.2.1...v5.2.2) (2021-01-08)
+
+
+### Bug Fixes
+
+* messenger ([5bbd5b9](https://github.com/freedomsex/server-bundle/commit/5bbd5b98629ba9c1be2af0d79ed88e9e53e95adf))
+
 ### [5.2.1](https://github.com/freedomsex/server-bundle/compare/v5.2.0...v5.2.1) (2021-01-08)
 
 ## [5.2.0](https://github.com/freedomsex/server-bundle/compare/v1.1.0...v5.2.0) (2021-01-08)
