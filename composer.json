@@ -10,7 +10,7 @@
         "php": "^7.4.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "freedomsex/auth-bundle": "^0.4.8",
+        "freedomsex/auth-bundle": "^0.4.10",
         "freedomsex/base-utilites": "*",
         "freedomsex/client-identifier": "*",
         "freedomsex/contracts": "*",
@@ -59,7 +59,13 @@
     },
     "extra": {
         "symfony": {
-            "require": "^5.2"
+            "require": "5.2.*"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     }
 }
