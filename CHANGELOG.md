@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/freedomsex/server-bundle/compare/v5.2.3...v5.3.0) (2021-08-08)
+
+
+### Features
+
+* api_key authenticator ([888f6b7](https://github.com/freedomsex/server-bundle/commit/888f6b7a0f4c7c96d23d6baea3398c2068882265))
+
 ### [5.2.3](https://github.com/freedomsex/server-bundle/compare/v5.2.2...v5.2.3) (2021-01-08)
 
 
