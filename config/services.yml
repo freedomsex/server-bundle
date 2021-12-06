@@ -28,5 +28,8 @@ services:
     arguments:
       $adapters: ['@app.cache.memory', '@app.cache.items']
 
-  FreedomSex\Contracts\Entity\User:
-    autoconfigure: true
+#  FreedomSex\Contracts\Entity\User:
+#    autoconfigure: true
+
+  FreedomSex\Services\KeyValueStorage: ~
+  FreedomSex\Services\ClientIdentifier: ~
