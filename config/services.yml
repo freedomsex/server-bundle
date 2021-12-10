@@ -4,8 +4,8 @@ services:
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
   FreedomSex\ServerBundle\:
-    resource: '../../*'
-    exclude: '../../{DependencyInjection,Entity}'
+    resource: '../src/*'
+    exclude: '../src/{DependencyInjection,Entity}'
 
 
   FreedomSex\ServerBundle\EventListener\EntityDateUpdate:
