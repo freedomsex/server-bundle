@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.3.6](https://github.com/freedomsex/server-bundle/compare/5.3.5...5.3.6) (2021-12-13)
+
+
+### Bug Fixes
+
+* remove auth ([14fabf3](https://github.com/freedomsex/server-bundle/commit/14fabf3dece657dd3e7b176d351fdc932ef1fa4a))
+
 ### [5.3.5](https://github.com/freedomsex/server-bundle/compare/5.3.4...5.3.5) (2021-12-10)
 
 
