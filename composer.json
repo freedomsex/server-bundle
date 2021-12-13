@@ -12,7 +12,6 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "doctrine/dbal": "^2.6",
-        "freedomsex/auth-bundle": "^0.4.10",
         "freedomsex/base-utilites": "*",
         "freedomsex/client-identifier": "*",
         "freedomsex/contracts": "*",
