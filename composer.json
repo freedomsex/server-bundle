@@ -11,13 +11,19 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
+        "composer/package-versions-deprecated": "1.11.99.4",
         "doctrine/dbal": "^2.6",
+        "doctrine/annotations": "^1.0",
+        "doctrine/doctrine-bundle": "^2.5",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.10",
         "freedomsex/base-utilites": "*",
         "freedomsex/client-identifier": "*",
         "freedomsex/contracts": "*",
         "freedomsex/health-bundle": "*",
         "freedomsex/key-value-storage": "^2.0",
         "nelmio/cors-bundle": "^2.0",
+        "phpdocumentor/reflection-docblock": "^5.0",
         "sensio/framework-extra-bundle": "^5.0",
         "symfony/amqp-messenger": "^5.0",
         "symfony/cache": "^5.0",
@@ -30,10 +36,13 @@
         "symfony/http-client": "^5.0",
         "symfony/messenger": "^5.2",
         "symfony/monolog-bundle": "^3.5",
-        "symfony/orm-pack": "^2.0",
+        "symfony/property-access": "^5.0",
+        "symfony/property-info": "^5.0",
+        "symfony/proxy-manager-bridge": "^5.0",
+        "symfony/runtime": "^5.0",
         "symfony/security-bundle": "^5.0",
         "symfony/serializer": "^5.0",
-        "symfony/runtime": "^5.0",
+        "symfony/translation": "^5.0",
         "symfony/twig-bundle": "^5.0",
         "symfony/uid": "^5.0",
         "symfony/validator": "^5.0",
@@ -46,17 +55,9 @@
         },
         "sort-packages": true
     },
-    "require-dev": {
-        "freedomsex/dev-pack": "^1.0"
-    },
     "autoload": {
         "psr-4": {
             "FreedomSex\\ServerBundle\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FreedomSex\\ServerBundle\\Tests\\": "tests/"
         }
     },
     "extra": {
