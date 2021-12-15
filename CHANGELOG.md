@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.3.7](https://github.com/freedomsex/server-bundle/compare/5.3.6...5.3.7) (2021-12-15)
+
+
+### Bug Fixes
+
+* upd ([f409155](https://github.com/freedomsex/server-bundle/commit/f409155ef9d84f3c6c0fe5ffb849eed78684dd20))
+
 ### [5.3.6](https://github.com/freedomsex/server-bundle/compare/5.3.5...5.3.6) (2021-12-13)
 
 
