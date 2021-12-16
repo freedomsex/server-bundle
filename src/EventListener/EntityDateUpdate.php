@@ -39,10 +39,10 @@ class EntityDateUpdate implements EventSubscriber
         $meta = $args->getObjectManager()->getClassMetadata(get_class($entity))->getFieldNames();
 
         if ($isNew) {
-            if (in_array('added', $meta)) {
+            if (in_array('added', $meta) and !$entity->getAdded()) {
                 $entity->setAdded($date);
             }
-            if (in_array('created', $meta)) {
+            if (in_array('created', $meta) and !$entity->getCreated()) {
                 $entity->setCreated($date);
             }
         }
