@@ -3,12 +3,14 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-  FreedomSex\ServerBundle\:
-    resource: '../src/*'
-    exclude: '../src/{DependencyInjection,Entity}'
+#  FreedomSex\ServerBundle\:
+#    resource: '../src/*'
+#    exclude: '../src/DependencyInjection'
 
+  FreedomSex\Services\EntityDateUpdater:
+    arguments: [$isLegacyFieldNames: true]
 
-  FreedomSex\ServerBundle\EventListener\EntityDateUpdate:
+  FreedomSex\EventListener\EntityDateUpdate:
     tags:
       - { name: doctrine.event_subscriber, connection: default }
 
