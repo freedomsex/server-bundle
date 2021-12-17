@@ -8,7 +8,8 @@ services:
 #    exclude: '../src/DependencyInjection'
 
   FreedomSex\Services\EntityDateUpdater:
-    arguments: [$isLegacyFieldNames: true]
+    arguments:
+      - $isLegacyFieldNames: true
 
   FreedomSex\EventListener\EntityDateUpdate:
     tags:
