@@ -9,7 +9,7 @@ services:
 
   FreedomSex\Services\EntityDateUpdater:
     arguments:
-      - $isLegacyFieldNames: true
+      $isLegacyFieldNames: true
 
   FreedomSex\EventListener\EntityDateUpdate:
     tags:
