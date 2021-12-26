@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.3.13](https://github.com/freedomsex/server-bundle/compare/5.3.12...5.3.13) (2021-12-26)
+
+
+### Bug Fixes
+
+* dbal ([713b544](https://github.com/freedomsex/server-bundle/commit/713b544b55b42d860609bdf630e41b425a676276))
+
 ### [5.3.12](https://github.com/freedomsex/server-bundle/compare/5.3.11...5.3.12) (2021-12-26)
 
 
