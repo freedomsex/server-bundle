@@ -1,0 +1,14 @@
+framework:
+  cache:
+    default_memcached_provider: '%env(MEMCACHED_SERVICE)%'
+    # Namespaced pools use the above "app" backend by default
+    pools:
+      app.cache.items:
+        adapter: cache.adapter.pdo
+        public: true
+
+      app.cache.memory:
+        adapter: cache.adapter.memcached
+        public: true
+
+
