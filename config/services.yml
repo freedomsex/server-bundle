@@ -19,7 +19,7 @@ services:
   app.json_encoder:
     class: Symfony\Component\Serializer\Encoder\JsonEncode
     arguments:
-      - [ json_encode_options: JSON_UNESCAPED_UNICODE ]
+      - { "json_encode_options": !php/const JSON_UNESCAPED_UNICODE }
 
   serializer.encoder.json:
     class: Symfony\Component\Serializer\Encoder\JsonEncoder
