@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.3.15](https://github.com/freedomsex/server-bundle/compare/5.3.14...5.3.15) (2022-02-28)
+
+
+### Bug Fixes
+
+* pc dep ([7e541c4](https://github.com/freedomsex/server-bundle/commit/7e541c43b40d3c229581904438bac85acce2db88))
+* upd orm ([9ad01b5](https://github.com/freedomsex/server-bundle/commit/9ad01b54d93c5f30b969586667087a58b6f9e6cb))
+
 ### [5.3.14](https://github.com/freedomsex/server-bundle/compare/5.3.13...5.3.14) (2021-12-27)
 
 
