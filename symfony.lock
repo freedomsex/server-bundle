@@ -100,6 +100,9 @@
     "freedomsex/key-value-storage": {
         "version": "v2.0.2"
     },
+    "freedomsex/maintenance-bundle": {
+        "version": "1.0.0"
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
@@ -288,9 +291,6 @@
     "symfony/password-hasher": {
         "version": "v5.3.8"
     },
-    "symfony/polyfill-ctype": {
-        "version": "v1.23.0"
-    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -299,9 +299,6 @@
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.23.1"
-    },
-    "symfony/polyfill-php72": {
-        "version": "v1.23.0"
     },
     "symfony/polyfill-php73": {
         "version": "v1.23.0"

@@ -4,7 +4,8 @@
     "description": "Meta `server` bundle for FreedomSex project api-servers",
     "license": "MIT",
     "repositories": [
-        { "type": "git", "url": "git@github.com:freedomsex/contracts" }
+        { "type": "git", "url": "git@github.com:freedomsex/contracts" },
+        { "type": "git", "url": "git@gitlab.com:freedomsex/php/bundles/maintenance-bundle" }
     ],
     "require": {
         "ext-ctype": "*",
@@ -22,6 +23,7 @@
         "freedomsex/entity-date-update": "*",
         "freedomsex/health-bundle": "*",
         "freedomsex/key-value-storage": "^2.0",
+        "freedomsex/maintenance-bundle": "^1.0",
         "nelmio/cors-bundle": "^2.0",
         "phpdocumentor/reflection-docblock": "^5.0",
         "sensio/framework-extra-bundle": "*",
