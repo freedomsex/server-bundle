@@ -91,6 +91,9 @@
     "freedomsex/contracts": {
         "version": "v1.2.6"
     },
+    "freedomsex/entity-cleaner-bundle": {
+        "version": "1.0.1"
+    },
     "freedomsex/entity-date-update": {
         "version": "0.1.3"
     },

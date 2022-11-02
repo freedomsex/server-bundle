@@ -34,5 +34,6 @@ services:
 #  FreedomSex\Contracts\Entity\User:
 #    autoconfigure: true
 
+  FreedomSex\Services\AttachedStorage: ~
   FreedomSex\Services\KeyValueStorage: ~
   FreedomSex\Services\ClientIdentifier: ~
