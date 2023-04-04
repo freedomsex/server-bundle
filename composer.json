@@ -1,11 +1,11 @@
 {
-    "name": "freedomsex/server-bundle",
+    "name": "a4sex/server-bundle",
     "type": "symfony-bundle",
     "description": "Meta `server` bundle for FreedomSex project api-servers",
     "license": "MIT",
     "repositories": [
         { "type": "git", "url": "git@github.com:freedomsex/contracts" },
-        { "type": "git", "url": "git@gitlab.com:freedomsex/php/bundles/maintenance-bundle" }
+        { "type": "git", "url": "git@gitlab.com:a4sex/php/bundles/maintenance-bundle" }
     ],
     "require": {
         "ext-ctype": "*",
@@ -18,38 +18,38 @@
         "doctrine/doctrine-migrations-bundle": "*",
         "doctrine/orm": "*",
         "freedomsex/base-utilites": "*",
-        "freedomsex/client-identifier": "*",
+        "a4sex/client-identifier": "*",
         "freedomsex/contracts": "*",
-        "freedomsex/entity-cleaner-bundle": "*",
-        "freedomsex/entity-date-update": "*",
-        "freedomsex/health-bundle": "*",
-        "freedomsex/key-value-storage": "^2.0",
-        "freedomsex/maintenance-bundle": "*",
+        "a4sex/entity-cleaner-bundle": "*",
+        "a4sex/entity-date-update": "*",
+        "a4sex/health-bundle": "*",
+        "a4sex/key-value-storage": "^2.0",
+        "a4sex/maintenance-bundle": "*",
         "nelmio/cors-bundle": "^2.0",
         "phpdocumentor/reflection-docblock": "^5.0",
         "sensio/framework-extra-bundle": "*",
-        "symfony/amqp-messenger": "^5.0",
-        "symfony/cache": "^5.0",
-        "symfony/console": "^5.0",
-        "symfony/doctrine-messenger": "^5.2",
-        "symfony/dotenv": "^5.0",
-        "symfony/expression-language": "^5.0",
+        "symfony/amqp-messenger": "^6.0",
+        "symfony/cache": "^6.0",
+        "symfony/console": "^6.0",
+        "symfony/doctrine-messenger": "^6.2",
+        "symfony/dotenv": "^6.0",
+        "symfony/expression-language": "^6.0",
         "symfony/flex": "^1.9",
-        "symfony/framework-bundle": "^5.0",
-        "symfony/http-client": "^5.0",
-        "symfony/messenger": "^5.2",
+        "symfony/framework-bundle": "^6.0",
+        "symfony/http-client": "^6.0",
+        "symfony/messenger": "^6.0",
         "symfony/monolog-bundle": "^3.5",
-        "symfony/property-access": "^5.0",
-        "symfony/property-info": "^5.0",
-        "symfony/proxy-manager-bridge": "^5.0",
-        "symfony/runtime": "^5.0",
-        "symfony/security-bundle": "^5.0",
-        "symfony/serializer": "^5.0",
-        "symfony/translation": "^5.0",
-        "symfony/twig-bundle": "^5.0",
-        "symfony/uid": "^5.0",
-        "symfony/validator": "^5.0",
-        "symfony/yaml": "^5.0"
+        "symfony/property-access": "^6.0",
+        "symfony/property-info": "^6.0",
+        "symfony/proxy-manager-bridge": "^6.0",
+        "symfony/runtime": "^6.0",
+        "symfony/security-bundle": "^6.0",
+        "symfony/serializer": "^6.0",
+        "symfony/translation": "^6.0",
+        "symfony/twig-bundle": "^6.0",
+        "symfony/uid": "^6.0",
+        "symfony/validator": "^6.0",
+        "symfony/yaml": "^6.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -65,7 +65,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FreedomSex\\ServerBundle\\": "src/"
+            "A4Sex\\ServerBundle\\": "src/"
         }
     }
 }

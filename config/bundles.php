@@ -2,7 +2,7 @@
 
 return [
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
-    FreedomSex\HealthBundle\HealthBundle::class => ['all' => true],
+    A4Sex\HealthBundle\HealthBundle::class => ['all' => true],
     Nelmio\CorsBundle\NelmioCorsBundle::class => ['all' => true],
     Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle::class => ['all' => true],
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
@@ -10,5 +10,6 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
-    FreedomSex\EntityCleanerBundle\EntityCleanerBundle::class => ['all' => true],
+    A4Sex\EntityCleanerBundle\EntityCleanerBundle::class => ['all' => true],
+    A4Sex\MaintenanceBundle\MaintenanceBundle::class => ['all' => true],
 ];

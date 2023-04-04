@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FreedomSex\ServerBundle\DependencyInjection;
+namespace A4Sex\ServerBundle\DependencyInjection;
 
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -22,7 +22,7 @@ class ServerExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-//        $definition = $container->getDefinition('FreedomSex\Services\JWTManager');
+//        $definition = $container->getDefinition('A4Sex\Services\JWTManager');
 //        $definition->replaceArgument('$token_ttl', $config['access_ttl']);
 //
 //        $definition = $container->getDefinition('refresh_token.generator');

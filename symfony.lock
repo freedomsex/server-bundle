@@ -1,4 +1,13 @@
 {
+    "a4sex/entity-cleaner-bundle": {
+        "version": "v1.0.3"
+    },
+    "a4sex/health-bundle": {
+        "version": "v1.1.0"
+    },
+    "a4sex/maintenance-bundle": {
+        "version": "v1.0.1"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.2"
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace FreedomSex\ServerBundle;
+namespace A4Sex\ServerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

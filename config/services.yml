@@ -3,15 +3,15 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-#  FreedomSex\ServerBundle\:
+#  A4Sex\ServerBundle\:
 #    resource: '../src/*'
 #    exclude: '../src/DependencyInjection'
 
-  FreedomSex\Services\EntityDateUpdater:
+  A4Sex\Services\EntityDateUpdater:
     arguments:
       $isLegacyFieldNames: true
 
-  FreedomSex\EventListener\EntityDateUpdate:
+  A4Sex\EventListener\EntityDateUpdate:
     tags:
       - { name: doctrine.event_subscriber, connection: default }
 
@@ -31,9 +31,9 @@ services:
     arguments:
       $adapters: ['@app.cache.memory', '@app.cache.items']
 
-#  FreedomSex\Contracts\Entity\User:
+#  A4Sex\Contracts\Entity\User:
 #    autoconfigure: true
 
-  FreedomSex\Services\AttachedStorage: ~
-  FreedomSex\Services\KeyValueStorage: ~
-  FreedomSex\Services\ClientIdentifier: ~
+  A4Sex\AttachedStorage: ~
+  A4Sex\KeyValueStorage: ~
+  A4Sex\ClientIdentifier: ~

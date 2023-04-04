@@ -1,6 +1,6 @@
 <?php
 
-namespace FreedomSex\ServerBundle\DependencyInjection;
+namespace A4Sex\ServerBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
